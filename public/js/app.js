@@ -19,14 +19,16 @@ $(document).ready(function(){
 
 
   function updateDisplay(){
-   var num=$(this).text();
-   if($display.text()==="0"){
-    $display.text(num);
-   }else{
-    $display.text($display.text()+num);
-   }
+
+  var num=$(this).text();
+  if($display.text()==="0"){
+  $display.text(num);
+  }else{
+  $display.text($display.text()+num);
   }
-  function divide(){
+
+  }
+
 
 
   }
@@ -44,11 +46,13 @@ $(document).ready(function(){
   }
 
   function plus(){
-
+   value=$(display).text();
+   value=eval(value);
+   $(display).text()=value;
   }
 
   function clear(){
-   $('#display').text("");
+   $('#display').text("0");
   }
 
   function memAdd(){
