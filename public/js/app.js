@@ -19,30 +19,36 @@ $(document).ready(function(){
 
 
   function updateDisplay(){
-    
+   var num=$(this).text();
+   if($display.text()==="0"){
+    $display.text(num);
+   }else{
+    $display.text($display.text()+num);
+   }
   }
   function divide(){
-    
+
+
   }
 
   function multiply(){
-    
+
   }
 
   function subtract(){
-    
+
   }
 
   function equal(){
-    
+
   }
 
   function plus(){
-    
+
   }
 
   function clear(){
-    
+   $('#display').text("");
   }
 
   function memAdd(){
@@ -58,7 +64,7 @@ $(document).ready(function(){
   }
 
   function memDisplay(){
-    
+
   }
 
 

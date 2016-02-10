@@ -3,28 +3,45 @@
   margin-left: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+
 }
 
 #content{
-  
+
 }
 
 #calculator-body {
-  
+background-color: grey;
+width: 300px;
+height: 350px;
+border-radius: 6px;
+
 }
 
 #display {
-  
+width:250px;
+height: 40px;
+background-color: white;
+border-radius: 4px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+text-align: right;
+font-size: 22;
 }
 
-.key {
-  
-}
-
-.operator {
-  
-}
 
 #equal{
-  
+width: 245px;
+
+}
+.key {
+background-color: orange;
+width: 50px;
+height: 30px;
+margin: 4px;
+}
+.operator{
+  background-color: red;
 }
