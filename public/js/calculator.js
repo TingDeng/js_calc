@@ -12,7 +12,7 @@ var Calculator = {
 }
 
 function add(num){
-  this.current += num;
+  this.current +=num;
 }
 function subtract(num){
   this.current-=num;
